@@ -2,7 +2,7 @@
   "name": "slack-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://./",
   "main": "./electron/main.js",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -11,8 +11,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "concurrently": "^7.1.0",
     "electron": "^18.0.1",
     "electron-builder": "^22.14.13",
+    "electron-is-dev": "^2.0.0",
     "firebase": "^9.6.10",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -48,5 +50,16 @@
       "last 1 safari version"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaseela99/slack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Jaseela99/slack/issues"
+  }
 }
