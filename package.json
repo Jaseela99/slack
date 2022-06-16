@@ -1,8 +1,7 @@
-{
+{ "homepage":"http://Jaseela99.github.io/slack",
   "name": "slack-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://./",
   "main": "./electron/main.js",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -28,6 +27,8 @@
     "yarn": "^1.22.18"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,7 +53,9 @@
   },
   "license": "MIT",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jaseela99/slack.git"
